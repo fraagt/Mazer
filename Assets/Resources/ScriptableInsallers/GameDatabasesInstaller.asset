@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77275de502a466d8c5e2b01e4fbfb6d, type: 3}
+  m_Name: GameDatabasesInstaller
+  m_EditorClassIdentifier: 
+  gridDatabase: {fileID: 11400000, guid: f34f0f0a1918a5f4fbce5a46993b3db6, type: 2}
