@@ -8,13 +8,13 @@ public class PlayerController : MonoBehaviour
 {
     void Update()
     {
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W))
             Move(Vector2.up);
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.S))
             Move(Vector2.down);
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKeyDown(KeyCode.D))
             Move(Vector2.right);
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.A))
             Move(Vector2.left);
     }
 

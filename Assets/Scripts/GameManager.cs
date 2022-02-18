@@ -5,7 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public PlayerController player;
-
+    public CameraBehaviour camera;
+    
     public GameObject MazeBox;
 
     private Maze _maze;
@@ -43,6 +44,8 @@ public class GameManager : MonoBehaviour
             PlayerController = playerObj,
             CurrentCell = _maze.Cells[0, 0]
         };
+
+        camera.SetTarget(playerObj.transform);
     }
 
     private void OnDestroy()
